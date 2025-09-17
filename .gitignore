@@ -1,14 +1,25 @@
-# Java / Maven
-target/
+# Java / build
 *.class
+target/
+out/
 *.log
-*.iml
-.gradle/
-.idea/
-.project
-.settings/
-.classpath
 
-# OS
+# IDEs
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+.gradle/
+
+# Octave / MATLAB
+*.asv
+*.mex*
+*.mat
+*.fig
+*.m~
+
+# OS junk
 .DS_Store
 Thumbs.db
